@@ -1,0 +1,79 @@
+/* Comentario: Estilo para el perfil del usuario */
+
+/* Estilo para el cuerpo del documento HTML */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  margin: 0; /* Sin margen en los bordes del cuerpo */
+  padding: 0; /* Sin relleno en los bordes del cuerpo */
+  background:  linear-gradient(150deg, #6c3483, #58d68d);
+}
+
+/* Estilo para el contenedor principal */
+div {
+  display: flex; /* Utiliza Flexbox */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a una nueva línea */
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 8px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
+  background-color: #fff; /* Color de fondo blanco para el contenedor */
+  padding: 20px; /* Relleno interno de 20px para el contenedor */
+  border-radius: 8px; /* Radio de borde para suavizar los bordes del contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra con desplazamiento de 0px en ambos ejes, difusión de 10px, y color RGBA */
+}
+
+/* Estilo para el título del perfil */
+h1 {
+  text-align: center; /* Alineación del texto centrada */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Estilo para las imágenes */
+img {
+  display: block; /* Hace que la imagen sea un elemento de bloque */
+  margin: 0 auto 20px; /* Margen inferior de 20px y centrado horizontalmente */
+  max-width: 100%; /* Ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Altura automática para mantener la proporción de la imagen */
+}
+
+/* Estilo para los párrafos */
+.p1, .p2 {
+  width: 45%; /* Ancho del 45% */
+  margin: 10px; /* Margen de 2.5% a la izquierda y derecha */
+}
+
+/* Estilo para los inputs */
+input[type="text"] {
+  border: 1px solid #ccc; /* Borde de 1px sólido gris */
+  padding: 5px; /* Relleno interno de 5px */
+  border-radius: 5px; /* Radio de borde de 5px para bordes redondeados */
+  width: calc(100% - 12px); /* Ancho del input, considerando el relleno y el borde */
+}
+
+/* Estilos para el botón */
+#guardarCambios {
+  display: block; /* Hacer que el botón sea un elemento de bloque */
+  width: 100%; /* Ancho completo dentro del div */
+  padding: 10px; /* Relleno interno de 10px */
+  margin-top: 20px; /* Margen superior de 20px */
+  background-color: #6c3483; /* Color de fondo azul */
+  color: #fff; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Radio de borde de 5px */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Cambia el estilo al pasar sobre el botón */
+#guardarCambios:hover {
+  background-color: purple; /* Color de fondo más oscuro al pasar sobre el botón */
+}
+
+
+/* Estilo para el texto en negrita */
+strong {
+  font-weight: bold; /* Fuente en negrita */
+}
+
+/* Estilo para los span dentro de los párrafos */
+span {
+  font-weight: normal; /* Fuente normal */
+  color: #333; /* Color de texto gris oscuro */
+}
